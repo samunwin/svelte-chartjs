@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SauravKanchan/svelte-chartjs.git"
+    "url": "git+https://github.com/samunwin/svelte-chartjs.git"
   },
   "bugs": {
-    "url": "https://github.com/SauravKanchan/svelte-chartjs"
+    "url": "https://github.com/samunwin/svelte-chartjs"
   },
   "scripts": {
     "build": "svelte-package --input ./src && pnpm lint:package",
@@ -48,7 +48,7 @@
   },
   "peerDependencies": {
     "chart.js": "^3.5.0 || ^4.0.0",
-    "svelte": "^4.0.0"
+    "svelte": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.0.0",
@@ -67,7 +67,7 @@
     "@storybook/svelte": "^7.6.10",
     "@storybook/svelte-vite": "^7.6.10",
     "@sveltejs/package": "^2.2.4",
-    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/svelte": "^4.0.5",
     "@tsconfig/svelte": "^5.0.2",
@@ -95,7 +95,7 @@
     "size-limit": "^8.0.0",
     "standard-version": "^9.5.0",
     "storybook": "^7.6.10",
-    "svelte": "^4.2.9",
+    "svelte": "^5.0.0",
     "svelte-eslint-parser": "^0.33.1",
     "svelte-loader": "^3.1.9",
     "svelte-preprocess": "^5.1.3",
